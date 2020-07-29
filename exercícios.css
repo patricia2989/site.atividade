@@ -1,0 +1,84 @@
+html * { margin: 0px;
+    text-align: center;
+    background-attachment: fixed;
+    }
+
+    body { background-attachment: fixed;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-color: black;
+        box-sizing: border-box; }
+
+
+    img { margin: 0px;
+        width: 1000px;
+        height: 400px;
+        background-attachment: fixed;
+        background-size: 100px;
+        background: cover;
+        }
+
+        h1 { color: black;
+            font-size: 65px;
+            background-attachment: fixed;
+            margin-bottom: 20px;
+            }
+
+            p {  color: white;
+                font-family: 'Times New Roman', Times, serif;
+            font-size: xx-large;
+            text-align: justify;
+            margin: 30px;
+            }
+
+     #voltar { background-color: rgb(94, 5, 5);
+         border: 5px solid black;  
+         color:whitesmoke;
+         text-transform: uppercase;
+    text-decoration: blue;  
+    }
+    
+    #voltar:hover { color: red;}
+
+    /* sites dicas */
+
+    #sites {color: rgb(51, 2, 2); 
+    font-family: sans-serif;
+    font-size: 70px;
+    }
+
+
+   h2 { font-size: 35px;
+        margin-bottom: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: rgb(240, 237, 233);
+        font-weight: bold;
+}
+
+       li { margin-bottom: 20px; 
+    text-align: justify;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 40px;
+
+       }
+      /* links */
+
+    .link { color:font-size: 15px; 
+    color:rgb(240, 237, 233);
+    font-size: 15px;}
+
+     .link:hover { background-color: red;
+     color: black;                 }  
+
+    /* quarentena */
+    div { background-color: brown; 
+        font-size: 25px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+       .centro { text-align: center;}
+
+       
+          
+    

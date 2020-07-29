@@ -1,0 +1,107 @@
+html * { margin: 0px;
+text-align: center;
+background-attachment: fixed;
+}
+
+body { background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+    box-sizing: border-box; }
+    
+    img { margin: 0px;
+    width: 1365px;
+    height: 200px;
+    background-attachment: fixed;
+    background-size: 100px;
+    background: cover;
+    }
+/* banner */
+    header { font-size: larger;
+    margin: 0px;
+    background-image: url("banner1.jpg");
+    height: 200px;
+    background-size: 100%;
+    object-fit: cover;
+    background-attachment: fixed;
+}
+
+#menu { background-color: rgb(107, 6, 6);
+    border-top: 10px solid black;
+    border-bottom: 10px solid black;
+    padding: 15px;
+    margin-bottom: 20px;
+
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+}
+
+#menu a { color:whitesmoke;
+    text-transform: uppercase;
+   }
+
+#menu:hover { color: black;
+    background-color: rgb(119, 64, 64);
+
+}
+.link:hover { color: rgb(206, 22, 160)  }
+
+
+/* TÍTULO */
+h1 { color: white;
+font-size: 65px;
+background-attachment: fixed;
+}
+
+p { color: white;
+font-family: 'Times New Roman', Times, serif ;
+background-color: black;
+font-size: 20px;
+}
+
+h2 { color: white;
+    font-size: 55px;
+    }
+
+
+div {  color: black;
+background-color: red;
+height: 35px;
+font-size: 18px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.item { margin-bottom: 8px;}
+
+li { color: red;
+    background-color: black; 
+    font-size: 20px ;
+    text-align: left;
+    }
+/* FRASE */
+.frase { COLOR: BLACK;
+background-color: blanchedalmond;
+font-size: 50PX;
+height: 55px;
+border-bottom: 10px solid black;
+border-top: 10px solid black;
+margin-top: 10px;
+}
+
+/* exercício imagem */
+.exercicios  { margin: 0px;
+    width: 1365px;
+    height: 400px;
+    background-attachment: fixed;
+    background-size: 100px;
+    background: cover;}
+
+    .dicas { background-color: rgb(94, 5, 5);
+        border: 5px solid black;  
+        color:whitesmoke;
+        text-transform: uppercase;
+   text-decoration: blue; }
+
+    
